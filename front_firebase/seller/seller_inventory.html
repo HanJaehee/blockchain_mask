@@ -358,6 +358,13 @@
         ourRequest.send();
       }
 
+      function sortByDate(data) {
+        data.sort((a,b) =>  {
+
+          return a.time - b.time;
+
+        });
+      }
        async function renderInventoryHTML(data, uid) {
         var docRef = db.collection("users").doc(uid).collection("inventory");
         var count = new Object();
