@@ -208,8 +208,7 @@
     function MakeInventoryTable() {
       var myTbody = document.getElementById("salesHistoryTbody");
       var ourRequest = new XMLHttpRequest();
-      ourRequest.open('GET', 'https://us-central1-maskproject-6e385.cloudfunctions.net/maskSaver/getHistory/' +
-      firebaseEmailAuth.currentUser.uid);
+      ourRequest.open('GET', 'https://us-central1-maskproject-6e385.cloudfunctions.net/maskSaver/getHistory/' + firebaseEmailAuth.currentUser.uid);
       ourRequest.onload = function () {
         var ourData = JSON.parse(ourRequest.responseText);
         //console.log(ourData);
