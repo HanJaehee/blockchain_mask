@@ -8,7 +8,7 @@
 
 https://maskproject-6e385.web.app/
 ----------------------------------
-특허 등록 완료 : 10-2239144
+특허 등록 완료 : 10-2239144<br/>
 https://ropsten.etherscan.io/address/0x2727b026edb116b20196a1abf32e0ca8311e93e2
 컨트랙트 주소
 <br>
